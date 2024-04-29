@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dec3b0bb-1b26-4504-98eb-9070c47f1839" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conversor-de-Monedas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConsultaMoneda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GeneradorDeArchivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Moneda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FiltroMonedas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/null.json" beforeDir="false" afterPath="$PROJECT_DIR$/null.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConsultaMoneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsultaMoneda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeneradorDeArchivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeneradorDeArchivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moneda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2fbmeiYeIqSfcnLV5mU9gex5tzX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -44,18 +40,26 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ConsultaMoneda.executor": "Run",
     "Application.Principal.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Curso Alura One/gson-2.10.1.jar",
+    "last_opened_file_path": "E:/Curso Alura One/Nueva carpeta/Conversor-de-Monedas",
     "onboarding.tips.debug.path": "E:/Curso Alura One/Nueva carpeta/Conversor-de-Monedas/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Principal">
+    <configuration name="ConsultaMoneda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConsultaMoneda" />
+      <module name="Conversor-de-Monedas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Principal" />
       <module name="Conversor-de-Monedas" />
@@ -66,6 +70,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Principal" />
+        <item itemvalue="Application.ConsultaMoneda" />
       </list>
     </recent_temporary>
   </component>

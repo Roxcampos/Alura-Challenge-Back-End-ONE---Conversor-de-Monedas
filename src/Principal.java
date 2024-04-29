@@ -1,22 +1,29 @@
 import java.io.IOException;
+import java.io.StringReader;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Principal {
     public static void main(String[] args) {
-        Scanner lectura = new Scanner(System.in);
-        ConsultaMoneda consulta = new ConsultaMoneda();
-        System.out.println("Escriba la moneda que desea buscar:");
-        try{
-            var numeroDeMoneda = Integer.valueOf(lectura.nextLine());
-            Moneda moneda = consulta.buscaMoneda(numeroDeMoneda);
-            System.out.println(moneda);
-            GeneradorDeArchivo generador = new GeneradorDeArchivo();
-            generador.guardarJson(moneda);
-        } catch (NumberFormatException e){
-            System.out.println("Número no encontrado "+e.getMessage());
-        } catch (RuntimeException | IOException e){
-            System.out.println(e.getMessage());
-            System.out.println("Finalizando la aplicación.");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese el código de la moneda de origen: ");
+        String codigoOrigen = scanner.nextLine().toUpperCase();
+        System.out.println("Ingrese el código de la moneda de destino: ");
+        String codigoDestino = scanner.nextLine().toUpperCase();
+        System.out.println("Ingrese la cantidad a convertir: ");
+        double cantidad = scanner.nextDouble();
+
+        try {
+            String json = ConsultaMoneda.consultar("https://v6.exchangerate-api.com/v6/005eb7055a72ed5cc078ed4f/latest/USD");
+            double tasaOrigen = FiltroMonedas.obtenerTasa(json, codigoOrigen);
+            double tasaDestino = FiltroMonedas.obtenerTasa(json, codigoDestino);
+            double resultado = cantidad * (tasaDestino / tasaOrigen);
+            System.out.println("El resultado de la conversión es: " + resultado);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+
+        scanner.close();
     }
 }
