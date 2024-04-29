@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dec3b0bb-1b26-4504-98eb-9070c47f1839" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FiltroMonedas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/null.json" beforeDir="false" afterPath="$PROJECT_DIR$/null.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConsultaMoneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsultaMoneda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GeneradorDeArchivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeneradorDeArchivo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moneda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
-    </list>
+    <list default="true" id="dec3b0bb-1b26-4504-98eb-9070c47f1839" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,20 +30,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ConsultaMoneda.executor": "Run",
-    "Application.Principal.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Curso Alura One/Nueva carpeta/Conversor-de-Monedas",
-    "onboarding.tips.debug.path": "E:/Curso Alura One/Nueva carpeta/Conversor-de-Monedas/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ConsultaMoneda.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Curso Alura One/Nueva carpeta/Conversor-de-Monedas&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/Curso Alura One/Nueva carpeta/Conversor-de-Monedas/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Principal">
     <configuration name="ConsultaMoneda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConsultaMoneda" />
@@ -84,6 +76,17 @@
       <updated>1714078250901</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
